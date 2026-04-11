@@ -231,7 +231,7 @@ const aboutVideoModal = document.getElementById('about-video-modal');
 const aboutVideoClose = document.getElementById('about-video-close');
 const aboutVideoFrame = document.getElementById('about-video-frame');
 const ABOUT_VIDEO_URL =
-  'https://youtu.be/jl8146R1JqY?si=uOat8LJlT3Q1DbxN';
+  'https://www.youtube.com/embed/jl8146R1JqY?si=FMQndSK0XJTtwiSr';
 
 function openAboutVideo() {
   if (!aboutVideoModal || !aboutVideoFrame) return;
