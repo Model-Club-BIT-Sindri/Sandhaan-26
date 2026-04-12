@@ -67,17 +67,33 @@ const video = document.getElementById('introVid');
 
 document.body.style.overflow = 'hidden';
 
-video.onended = () => {
-  // thoda delay for cinematic feel
-  setTimeout(() => {
-    intro.classList.add('hide');
-  }, 100);
+// 🔥 Safety timeout (agar video atak gaya toh bhi exit ho jaaye)
+let forceExit = setTimeout(() => {
+  hideIntro();
+}, 6000); // 6 sec max
+
+function hideIntro() {
+  if (!intro) return;
+
+  intro.style.opacity = '0';
+  intro.style.transition = 'opacity 0.6s ease';
 
   setTimeout(() => {
     intro.style.display = 'none';
     document.body.style.overflow = 'auto';
-  }, 700);
-};
+  }, 600);
+}
+
+// ✅ Normal end
+video.addEventListener('ended', () => {
+  clearTimeout(forceExit);
+  hideIntro();
+});
+
+// ✅ Agar video load hi slow ho
+video.addEventListener('canplaythrough', () => {
+  video.play().catch(() => {});
+});
 
 // function renderCategories() {
 //     const container = document.getElementById('categories-container');
