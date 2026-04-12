@@ -138,14 +138,21 @@ function renderEventsGrid() {
   } else {
     noEvents.classList.add('hidden');
     container.innerHTML = filtered
-      .map(
-        (event, idx) => `
-        <button onclick="handleCardClick('${event.id}', event)" class="event-box-card reveal-on-scroll opacity-0" data-animation="animate-scaleIn">
-          <img src="./assets/box.png" alt="${event.title}" class="event-box-image">
-        </button>
-      `,
-      )
-      .join('');
+  .map(
+    (event, idx) => `
+      <button onclick="handleCardClick('${event.id}', event)" 
+        class="event-box-card reveal-on-scroll opacity-0" 
+        data-animation="animate-scaleIn">
+        
+        <img 
+          src="${event.open === "yes" ? event.image : "./assets/box.png"}" 
+          alt="${event.title}" 
+          class="event-box-image">
+          
+      </button>
+    `,
+  )
+  .join('');
 
     lucide.createIcons();
     setupScrollReveal();
@@ -241,12 +248,12 @@ window.openModal = (id, event) => {
   lastClickedCard = event ? event.currentTarget : null;
 
   modalBody.innerHTML = `
-        <div class="lg:w-1/2 h-64 lg:h-full relative overflow-hidden">
+        <div class="lg:w-1/2 h-64 lg:h-full relative overflow-hidden ">
             <img src="${eventData.image}" alt="${eventData.title}" class="w-full h-full object-cover">
             <div class="absolute inset-0 bg-gradient-to-t from-spidey-black via-transparent to-transparent lg:hidden"></div>
         </div>
 
-        <div class="lg:w-1/2 p-8 md:p-12 space-y-8">
+        <div class="lg:w-1/2 p-8 md:p-12 space-y-8 font-sans">
             <div>
                 
                 <h2 class="text-5xl md:text-7xl text-white mt-2">${eventData.title}</h2>
@@ -270,25 +277,11 @@ window.openModal = (id, event) => {
                 <p class="text-gray-300 text-lg leading-relaxed">${eventData.fullDescription}</p>
             </div>
 
-            <div class="space-y-4">
-                <h4 class="text-3xl text-spidey-blue flex items-center gap-2">
-                    <i data-lucide="clock" class="w-6 h-6"></i> SCHEDULE
-                </h4>
-                <ul class="space-y-3">
-                    ${eventData.schedule
-                      .map(
-                        (item) => `
-                        <li class="flex items-center gap-3 text-gray-400 text-lg">
-                            <div class="w-2 h-2 bg-spidey-red rounded-full"></div>
-                            ${item}
-                        </li>
-                    `,
-                      )
-                      .join('')}
-                </ul>
-            </div>
+            
 
-            <button class="px-6 py-3 bg-spidey-red text-white text-lg uppercase tracking-wider font-[Anton] hover:scale-105 hover:shadow-[0_0_15px_#E23636] transition-all duration-300">
+            <button 
+  onclick="window.open('${eventData.wlink}', '_blank')"
+  class="px-6 py-3 bg-spidey-red text-white text-lg uppercase tracking-wider font-sans hover:scale-105 hover:shadow-[0_0_15px_#E23636] transition-all duration-300">
   Register for Mission
 </button>
         </div>

@@ -199,15 +199,20 @@ function renderFeaturedEvents() {
   // sirf first 3 events
   const featured = EVENTS.slice(0, 3);
 
-  container.innerHTML = featured
-    .map(
-      (event) => `
-      <a href="./events.html" class="event-box-card" aria-label="View ${event.title} in Events">
-        <img src="./assets/box.png" alt="${event.title}" class="event-box-image">
+ container.innerHTML = featured
+  .map(
+    (event) => `
+      <a href="./events.html" class="event-box-card" aria-label="View ${event.title}">
+        
+        <img 
+          src="${event.open === "yes" ? event.image : "./assets/box.png"}" 
+          alt="${event.title}" 
+          class="event-box-image">
+          
       </a>
     `,
-    )
-    .join('');
+  )
+  .join('');
 }
 window.addEventListener('DOMContentLoaded', () => {
   renderFeaturedEvents();
