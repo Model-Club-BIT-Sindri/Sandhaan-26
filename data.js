@@ -8,7 +8,7 @@ const EVENTS = [
         date: "09/05/2026 - 10/05/2026",
         location: "BIT Sindri",
         wlink:"https://unstop.com/o/RovjumI?lb=1PLt4xRq&utm_medium=Share&utm_source=events&utm_campaign=Harshkum3077",
-        image: "./assets/robosaga.jpeg"
+        image: "./assets/robosaga.png"
     },
     {
         id: "2",
