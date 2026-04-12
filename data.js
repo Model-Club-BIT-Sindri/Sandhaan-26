@@ -5,7 +5,7 @@ const EVENTS = [
         open:"yes",
         description: "Something exciting is on the way. Stay tuned!",
         fullDescription: "The thrilling era today is witnessing rapid metamorphosis in which maniacs can emerge with unsurpassable impetus to spur the development around them. This segment challenges your imagination to realize your dream of bot racing with churning wheels and puffing engine on the terrain you dream of.",
-        date: "To be announced",
+        date: "09/05/2026 - 10/05/2026",
         location: "BIT Sindri",
         wlink:"https://unstop.com/o/RovjumI?lb=1PLt4xRq&utm_medium=Share&utm_source=events&utm_campaign=Harshkum3077",
         image: "./assets/robosaga.jpeg"
