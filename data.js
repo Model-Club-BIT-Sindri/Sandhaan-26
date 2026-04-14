@@ -12,15 +12,14 @@ const EVENTS = [
     },
     {
         id: "2",
-        title: "Coming Soon",
-        open:"no",
+        title: "AQUA ARENA",
+        open:"yes",
         description: "Something exciting is on the way. Stay tuned!",
-        fullDescription: "Something exciting is quietly taking shape behind the scenes. While we’re not ready to reveal all the details just yet, we can promise that it’s going to be worth the wait. This upcoming event is being carefully crafted to bring something fresh, engaging, and memorable. Whether you’re here out of curiosity or anticipation, you won’t want to miss what’s coming next. Stay tuned as we get closer to unveiling everything.",
-        date: "Date Revealing Soon",
-        category: "Technical",
-        location: "Venue will be revealed soon",
-        image: "./assets/coming.jpg",
-        schedule: ["To be announced"]
+        fullDescription: "Aqua Arena is an exciting water-based robotic competition designed to test participants’ engineering skills, strategic thinking, and precision control. Teams will navigate their boats through a water track, complete interactive tasks, and overcome challenging obstacles.",
+        date: "09/05/2026 - 10/05/2026",
+        location: "BIT Sindri",
+        wlink:"https://unstop.com/o/7VH6L5a?lb=jm3QThrb&utm_medium=Share&utm_source=competitions&utm_campaign=Garvaraj51344",
+        image: "./assets/aquarena.png"
     },
     {
         id: "3",
