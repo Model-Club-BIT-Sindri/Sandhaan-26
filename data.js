@@ -23,15 +23,13 @@ const EVENTS = [
     },
     {
         id: "3",
-        title: "Coming Soon",
-        open:"no",
-        description: "Something exciting is on the way. Stay tuned!",
-        fullDescription: "Something exciting is quietly taking shape behind the scenes. While we’re not ready to reveal all the details just yet, we can promise that it’s going to be worth the wait. This upcoming event is being carefully crafted to bring something fresh, engaging, and memorable. Whether you’re here out of curiosity or anticipation, you won’t want to miss what’s coming next. Stay tuned as we get closer to unveiling everything.",
-        date: "Date Revealing Soon",
-        category: "Technical",
-        location: "Venue will be revealed soon",
-        image: "./assets/coming.jpg",
-        schedule: ["To be announced"]
+        title: "Drone-A-Thon",
+        open:"yes",
+        fullDescription: "The main motive of the event is to create a robust, economical, and user-friendly drone that could fit into our daily lives. The event would take place in three stages. The winner will be decided based on the stability, time of flight, and range of the drones.",
+        date: "09/05/2026",
+        location: "BIT Sindri",
+        wlink:"https://unstop.com/o/cVb8xvF?lb=jm3QThrb&utm_medium=Share&utm_source=competitions&utm_campaign=Garvaraj51344",
+        image: "./assets/dronathon.png",
     },
     {
         id: "4",
