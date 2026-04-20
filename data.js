@@ -33,15 +33,13 @@ const EVENTS = [
     },
     {
         id: "4",
-        title: "Coming Soon",
-        open:"no",
-        description: "Something exciting is on the way. Stay tuned!",
-        fullDescription: "Something exciting is quietly taking shape behind the scenes. While we’re not ready to reveal all the details just yet, we can promise that it’s going to be worth the wait. This upcoming event is being carefully crafted to bring something fresh, engaging, and memorable. Whether you’re here out of curiosity or anticipation, you won’t want to miss what’s coming next. Stay tuned as we get closer to unveiling everything.",
-        date: "Date Revealing Soon",
-        category: "Technical",
-        location: "Venue will be revealed soon",
-        image: "./assets/coming.jpg",
-        schedule: ["To be announced"]
+        title: "Pixel Play",
+        open:"yes",
+        fullDescription: "Pixel Play is a two-round UI/UX design competition designed to evaluate participants’ theoretical knowledge and practical design skills. The event focuses on creativity, usability, and the effective application of UI/UX principles.",
+        date: "04/05/2026",
+        location: "Unstop (online)",
+        wlink:"https://unstop.com/o/woL3sYx?lb=jm3QThrb&utm_medium=Share&utm_source=competitions&utm_campaign=Garvaraj51344",
+        image: "./assets/pixelplay.png",
     },
     {
         id: "5",
