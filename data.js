@@ -46,7 +46,7 @@ const EVENTS = [
         title: "AlgoArena",
         open:"yes",
         fullDescription: "AlgoArena is a coding challenge designed to assess participants' fundamental problem-solving skills and coding accuracy. The contest focuses on building strong logical thinking through a set of well-curated questions, encouraging participants to write efficient and correct solutions.",
-        date: "08/05/2026 - 09/05/2026",
+        date: "08/05/2026",
         location: "GeeksforGeeks (online)",
         wlink:"https://shorturl.at/k2r3a",
         image: "./assets/algoarena.png",
