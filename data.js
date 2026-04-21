@@ -43,15 +43,13 @@ const EVENTS = [
     },
     {
         id: "5",
-        title: "Coming Soon",
-        open:"no",
-        description: "Something exciting is on the way. Stay tuned!",
-        fullDescription: "Something exciting is quietly taking shape behind the scenes. While we’re not ready to reveal all the details just yet, we can promise that it’s going to be worth the wait. This upcoming event is being carefully crafted to bring something fresh, engaging, and memorable. Whether you’re here out of curiosity or anticipation, you won’t want to miss what’s coming next. Stay tuned as we get closer to unveiling everything.",
-        date: "Date Revealing Soon",
-        category: "Technical",
-        location: "Venue will be revealed soon",
-        image: "./assets/coming.jpg",
-        schedule: ["To be announced"]
+        title: "AlgoArena",
+        open:"yes",
+        fullDescription: "AlgoArena is a coding challenge designed to assess participants' fundamental problem-solving skills and coding accuracy. The contest focuses on building strong logical thinking through a set of well-curated questions, encouraging participants to write efficient and correct solutions.",
+        date: "08/05/2026 - 09/05/2026",
+        location: "GeeksforGeeks (online)",
+        wlink:"https://shorturl.at/k2r3a",
+        image: "./assets/algoarena.png",
     },
     {
         id: "6",
