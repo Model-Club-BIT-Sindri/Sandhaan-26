@@ -53,15 +53,13 @@ const EVENTS = [
     },
     {
         id: "6",
-        title: "Coming Soon",
-        open:"no",
-        description: "Something exciting is on the way. Stay tuned!",
-        fullDescription: "Something exciting is quietly taking shape behind the scenes. While we’re not ready to reveal all the details just yet, we can promise that it’s going to be worth the wait. This upcoming event is being carefully crafted to bring something fresh, engaging, and memorable. Whether you’re here out of curiosity or anticipation, you won’t want to miss what’s coming next. Stay tuned as we get closer to unveiling everything.",
-        date: "Date Revealing Soon",
-        category: "Technical",
-        location: "Venue will be revealed soon",
-        image: "./assets/coming.jpg",
-        schedule: ["To be announced"]
+        title: "HydroFlight",
+        open:"yes",
+        fullDescription: "Welcome to an exciting competition centered around the fascinating concept of water-pressure propulsion. Participants will showcase their creativity and engineering skills by designing, building, and launching their own water rockets. This challenge goes beyond just racing; it evaluates your understanding of aerodynamics, propulsion mechanics, and energy efficiency while pushing you to innovate and perform under real conditions.",
+        date: "09/05/2026-10/05/2026",
+        location: "Unstop (online)",
+        wlink:"https://shorturl.at/nOJrO",
+        image: "./assets/hydroflight.png",
     },
     {
         id: "7",
