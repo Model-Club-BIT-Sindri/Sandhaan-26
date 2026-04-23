@@ -57,7 +57,7 @@ const EVENTS = [
         open:"yes",
         fullDescription: "Welcome to an exciting competition centered around the fascinating concept of water-pressure propulsion. Participants will showcase their creativity and engineering skills by designing, building, and launching their own water rockets. This challenge goes beyond just racing; it evaluates your understanding of aerodynamics, propulsion mechanics, and energy efficiency while pushing you to innovate and perform under real conditions.",
         date: "09/05/2026-10/05/2026",
-        location: "Unstop (online)",
+        location: "BIT Sindri",
         wlink:"https://shorturl.at/nOJrO",
         image: "./assets/hydroflight.png",
     },
