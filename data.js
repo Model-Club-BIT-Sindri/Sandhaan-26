@@ -63,15 +63,13 @@ const EVENTS = [
     },
     {
         id: "7",
-        title: "Coming Soon",
-        open:"no",
-        description: "Something exciting is on the way. Stay tuned!",
-        fullDescription: "Something exciting is quietly taking shape behind the scenes. While we’re not ready to reveal all the details just yet, we can promise that it’s going to be worth the wait. This upcoming event is being carefully crafted to bring something fresh, engaging, and memorable. Whether you’re here out of curiosity or anticipation, you won’t want to miss what’s coming next. Stay tuned as we get closer to unveiling everything.",
-        date: "Date Revealing Soon",
-        category: "Technical",
-        location: "Venue will be revealed soon",
-        image: "./assets/coming.jpg",
-        schedule: ["To be announced"]
+        title: "Build For BIT",
+        open:"yes",
+        fullDescription: "Build for BIT is an innovation-driven problem-solving competition where participants design and develop solutions for real-world challenges faced by students. The event focuses on creativity, practical thinking, and technical execution, encouraging participants to build solutions that can create meaningful impact within campus life. ",
+        date: "09/05/2026-10/05/2026",
+        location: "BIT Sindri",
+        wlink:"https://unstop.com/o/WAY15Lp?lb=jm3QThrb&utm_medium=Share&utm_source=competitions&utm_campaign=Garvaraj51344",
+        image: "./assets/buildforbit.png",
     },
     {
         id: "8",
