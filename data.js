@@ -83,15 +83,13 @@ const EVENTS = [
     },
     {
         id: "9",
-        title: "Coming Soon",
-        open:"no",
-        description: "Something exciting is on the way. Stay tuned!",
-        fullDescription: "Something exciting is quietly taking shape behind the scenes. While we’re not ready to reveal all the details just yet, we can promise that it’s going to be worth the wait. This upcoming event is being carefully crafted to bring something fresh, engaging, and memorable. Whether you’re here out of curiosity or anticipation, you won’t want to miss what’s coming next. Stay tuned as we get closer to unveiling everything.",
-        date: "Date Revealing Soon",
-        category: "Technical",
-        location: "Venue will be revealed soon",
-        image: "./assets/coming.jpg",
-        schedule: ["To be announced"]
+        title: "Prompt Craft",
+        open:"yes",
+        fullDescription: "Prompt Craft is a multi-round competition where participants must recreate and build digital content (image and website using AI tools. Each team is given a fixed total of only 4/6 prompts for the entire event, which they can use at any stage based on their strategy. This introduces a unique challenge of resource management combined with creativity.",
+        date: "09/05/2026",
+        location: "BIT Sindri",
+        wlink:"https://unstop.com/o/Soiyl4e?lb=jm3QThrb&utm_medium=Share&utm_source=competitions&utm_campaign=Garvaraj51344",
+        image: "./assets/promptcraft.png",
     },
     {
         id: "10",
