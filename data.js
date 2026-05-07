@@ -93,15 +93,13 @@ const EVENTS = [
     },
     {
         id: "10",
-        title: "Coming Soon",
-        open:"no",
-        description: "Something exciting is on the way. Stay tuned!",
-        fullDescription: "Something exciting is quietly taking shape behind the scenes. While we’re not ready to reveal all the details just yet, we can promise that it’s going to be worth the wait. This upcoming event is being carefully crafted to bring something fresh, engaging, and memorable. Whether you’re here out of curiosity or anticipation, you won’t want to miss what’s coming next. Stay tuned as we get closer to unveiling everything.",
-        date: "Date Revealing Soon",
-        category: "Technical",
-        location: "Venue will be revealed soon",
-        image: "./assets/coming.jpg",
-        schedule: ["To be announced"]
+        title: "Shoot At Sight 3.0",
+        open:"yes",
+        fullDescription: "Do you see yourself as a visionary storyteller or an aspiring director? Shoot at Sight at SANDHAAN’26 is your opportunity to prove it. Create your own short film and showcase it on the big screen, where a live audience will experience and celebrate your creativity.The participants will have to upload the video on Unstop or the Google Form within 2 days of the event. ",
+        date: "09/05/2026",
+        location: "Unstop(online)",
+        wlink:"https://unstop.com/o/dnFSIfv?lb=jm3QThrb&utm_medium=Share&utm_source=events&utm_campaign=Garvaraj51344",
+        image: "./assets/shootatsight.png",
     }
 
 
